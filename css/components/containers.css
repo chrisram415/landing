@@ -1,0 +1,18 @@
+.container {
+  /* width of conatiner */
+  width: 900px;
+  /* same margin sides */
+  margin: auto;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}

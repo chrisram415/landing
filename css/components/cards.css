@@ -1,0 +1,46 @@
+.card img {
+  /* size of image */
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  /* background-size: cover;
+  /* centers image */
+  /* background-position: center; */
+
+}
+
+.card p {
+  /* see throughness */
+  opacity: .5;
+}
+
+.card {
+  /* width of each card */
+  width: 200px;
+  /* height: 200px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(156, 156, 156, 0.5);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  /* how each card is displayed within flex box */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+@media(max-width: 900px) {
+  .card {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 500px) {
+  .cards {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,22 @@
+.banner {
+  /* makes image take full size without distortion */
+  background-size: cover;
+  /* centers image */
+  background-position: center;
+  /* extra space */
+  padding: 200px 0;
+}
+
+.banner h1 {
+  /* text = white */
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.banner p {
+  /* text = white */
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+}

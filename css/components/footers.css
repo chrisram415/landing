@@ -1,0 +1,29 @@
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #1e1e1e;
+}
+
+.footer a {
+  font-size: 50px;
+  color:  #ffef72;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  box-shadow: 2px 2px 10px rgba(11, 11, 11, 0.7);
+  border-radius: 10px;
+  font-size: 50px;
+}
+
+.footer a:hover {
+  box-shadow: inset 700px 0 0 0 #3e3e3e;
+  color: #9eefff;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #df6dff;
+}
